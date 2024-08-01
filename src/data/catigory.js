@@ -1,0 +1,287 @@
+export const categories = [
+    {
+      id: 1,
+      icon: "/public/icons/woman.svg",
+      name: "Для женщин",
+      announcementCount: 4142,
+      subcategoriesCount: 12,
+      subcategories: [
+        {
+          id: 11,
+          slug: "smartphones",
+          name: "Смартфоны",
+        },
+        {
+          id: 12,
+          slug: "accessories",
+          name: "Аксессуары для смартфонов и телефонов",
+        },
+        {
+          id: 13,
+          slug: "smart-watches",
+          name: "Смарт-часы",
+        },
+      ],
+    },
+    {
+      id: 2,
+      icon: "/public/icons/cosmetics.svg",
+      name: "Красота",
+      announcementCount: 4142,
+      subcategoriesCount: 12,
+    },
+    {
+      id: 3,
+      icon: "fridge",
+      icon: "/public/icons/fridge.svg",
+      name: "Бытовая техника",
+      announcementCount: 4142,
+      subcategoriesCount: 12,
+      subcategories: [
+        {
+          id: 31,
+          slug: "smartphones",
+          name: "Фитнес браслеты",
+        },
+        {
+          id: 32,
+          slug: "accessories",
+          name: "Ремешки для часов и смарт-часов",
+        },
+        {
+          id: 33,
+          slug: "smart-watches",
+          name: "Запчасти для смартфонов",
+        },
+      ],
+    },
+    {
+      id: 4,
+      icon: "/public/icons/man.svg",
+      name: "Для мужчин",
+      announcementCount: 4142,
+      subcategoriesCount: 12,
+    },   
+    {
+        id: 5,
+        icon: "/public/icons/medical.png",
+        name: "Для женщин",
+        announcementCount: 4142,
+        subcategoriesCount: 12,
+        subcategories: [
+          {
+            id: 51,
+            slug: "smartphones",
+            name: "Смартфоны",
+          },
+          {
+            id: 52,
+            slug: "accessories",
+            name: "Аксессуары для смартфонов и телефонов",
+          },
+          {
+            id: 53,
+            slug: "smart-watches",
+            name: "Смарт-часы",
+          },
+        ],
+      },
+      {
+        id: 6,
+        icon: "/public/icons/phone.png",
+        name: "Для женщин",
+        announcementCount: 4142,
+        subcategoriesCount: 12,
+        subcategories: [
+          {
+            id: 61,
+            slug: "smartphones",
+            name: "Смартфоны",
+          },
+          {
+            id: 62,
+            slug: "accessories",
+            name: "Аксессуары для смартфонов и телефонов",
+          },
+          {
+            id: 63,
+            slug: "smart-watches",
+            name: "Смарт-часы",
+          },
+        ],
+      },
+      {
+        id: 7,
+        icon: "/public/icons/childeren.png",
+        name: "Для женщин",
+        announcementCount: 4142,
+        subcategoriesCount: 12,
+        subcategories: [
+          {
+            id: 71,
+            slug: "smartphones",
+            name: "Смартфоны",
+          },
+          {
+            id: 72,
+            slug: "accessories",
+            name: "Аксессуары для смартфонов и телефонов",
+          },
+          {
+            id: 73,
+            slug: "smart-watches",
+            name: "Смарт-часы",
+          },
+        ],
+      },
+      {
+        id: 8,
+        icon: "/public/icons/gold.png",
+        name: "Для женщин",
+        announcementCount: 4142,
+        subcategoriesCount: 12,
+        subcategories: [
+          {
+            id: 81,
+            slug: "smartphones",
+            name: "Смартфоны",
+          },
+          {
+            id: 82,
+            slug: "accessories",
+            name: "Аксессуары для смартфонов и телефонов",
+          },
+          {
+            id: 83,
+            slug: "smart-watches",
+            name: "Смарт-часы",
+          },
+        ],
+      },
+      {
+        id: 9,
+        icon: "/public/icon/home.png",
+        name: "Красота",
+        announcementCount: 4142,
+        subcategoriesCount: 12,
+      },
+      {
+        id: 10,
+        icon: "/public/icons/tufli.png",
+        name: "Красота",
+        announcementCount: 4142,
+        subcategoriesCount: 12,
+      },
+      {
+        id: 11,
+        icon: "/public/icons/pen.png",
+        name: "Красота",
+        announcementCount: 4142,
+        subcategoriesCount: 12,
+      },
+      {
+        id: 12,
+        icon: "/public/icons/holiday.png",
+        name: "Красота",
+        announcementCount: 4142,
+        subcategoriesCount: 12,
+      },
+      {
+        id: 13,
+        icon: "/public/icons/car.png",
+        name: "Красота",
+        announcementCount: 4142,
+        subcategoriesCount: 12,
+      },
+      {
+        id: 14,
+        icon: "/public/icons/new-car.png",
+        name: "Красота",
+        announcementCount: 4142,
+        subcategoriesCount: 12,
+      }, 
+      {
+        id: 15,
+        icon: "/public/icons/motatsikl.png",
+        name: "Для женщин",
+        announcementCount: 4142,
+        subcategoriesCount: 12,
+        subcategories: [
+          {
+            id: 151,
+            slug: "smartphones",
+            name: "Смартфоны",
+          },
+          {
+            id: 152,
+            slug: "accessories",
+            name: "Аксессуары для смартфонов и телефонов",
+          },
+          {
+            id: 153,
+            slug: "smart-watches",
+            name: "Смарт-часы",
+          },
+        ],
+      },
+      {
+        id: 16,
+        icon: "//public/icons/flower.png",
+        name: "Для женщин",
+        announcementCount: 4142,
+        subcategoriesCount: 12,
+        subcategories: [
+          {
+            id: 161,
+            slug: "smartphones",
+            name: "Смартфоны",
+          },
+          {
+            id: 162,
+            slug: "accessories",
+            name: "Аксессуары для смартфонов и телефонов",
+          },
+          {
+            id: 163,
+            slug: "smart-watches",
+            name: "Смарт-часы",
+          },
+        ],
+      },
+      {
+        id: 17,
+        icon: "/public/icons/gigina.png",
+        name: "Красота",
+        announcementCount: 4142,
+        subcategoriesCount: 12,
+      },
+      {
+        id: 18,
+        icon: "/public/icons/acsisiuar.png",
+        name: "Красота",
+        announcementCount: 4142,
+        subcategoriesCount: 12,
+      },
+      {
+        id: 19,
+        icon: "/public/icons/tufli.png",
+        name: "Красота",
+        announcementCount: 4142,
+        subcategoriesCount: 12,
+      }, 
+      {
+        id: 20,
+        icon: "/public/icons/master.png",
+        name: "Красота",
+        announcementCount: 4142,
+        subcategoriesCount: 12,
+      },
+      {
+        id: 21,
+        icon: "/public/icons/bag.png",
+        name: "Красота",
+        announcementCount: 4142,
+        subcategoriesCount: 12,
+      },     
+  ];
+  

@@ -1,0 +1,19 @@
+@import "_tailwind.css";
+
+.category.active {
+    @apply border-mainBlue;
+  }
+  
+  .category.active .category__img {
+    @apply bg-mainBlue border-white/20;
+  }
+  
+  .category.active .category__img img {
+    @apply icon-white;
+  }
+  .category.active .category__chevron {
+    @apply rotate-90;
+    filter: invert(48%) sepia(47%) saturate(1705%) hue-rotate(191deg)
+      brightness(95%) contrast(100%);
+  }
+  

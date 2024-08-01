@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="/public/icons/main-logo.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../assets/styles/main.css" />
+    <title>Blog</title>
+  </head>
+  <body>
+    <header class="w-full bg-white">
+      <div class="container bg-white w-full">
+        <div class="flex justify-between items-center max-h-20">
+          <div class="flex items-center text-center">
+            <!-- Dropdown Language -->
+            <div class="relative">
+              <button
+                id="dropdownButton"
+                class="flex items-center"
+                type="button"
+              >
+                <img class="h-5" src="/public/icons/rus.png" alt="flag" />
+                <p class="px-1 font-medium hidden sm:block">Русский</p>
+                <span class="px-1 font-medium sm:hidden">PY</span>
+                <img
+                  class="h-5 chevroncha"
+                  src="/public/icons/chevron-right.svg"
+                  alt="down"
+                />
+              </button>
+              <div
+                id="dropdown-menu"
+                class="hidden absolute -right-8 mt-2 w-32 bg-white rounded-md overflow-hidden shadow-2xl z-10 pl-2"
+              >
+                <button class="flex p-2">
+                  <img
+                    class="h-5 w-5"
+                    src="/public/icons/rus.png"
+                    alt="flag"
+                  />
+                  <p class="px-1 font-medium hidden lg:flex">Русский</p>
+                </button>
+                <button class="flex p-2">
+                  <img
+                    class="h-5 w-5"
+                    src="/public/icons/Language.svg"
+                    alt="flag"
+                  />
+                  <p class="px-1 font-medium hidden lg:flex">O'zbekcha</p>
+                </button>
+              </div>
+            </div>
+            <!-- dropdown bar -->
+
+            <div class="pl-4 items-center hidden lg:flex">
+              <img
+                class="h-5 w-5"
+                src="/public/icons/phone-num.png"
+                alt="phon"
+              />
+              <p class="font-medium">+998 88 500 50 00</p>
+            </div>
+          </div>
+
+          <a href="../pages/tavar.htm">
+            <div class="flex mt-14">
+              <img src="/public/icons/main-logo.svg" alt="77.uz" />
+            </div>
+          </a>
+
+          <div class="flex items-center text-center">
+            <div class="flex pr-5 items-center">
+              <img
+                class="h-6 bg-btnGrey rounded-sm md:bg-transparent"
+                src="/public/icons/heart.png"
+                alt="heart"
+              />
+              <p class="pl-1 font-semibold hidden md:block">Избранные</p>
+            </div>
+            <div class="flex mr-8">
+              <a
+                class="bg-btnGrey pb-2 px-2 md:px-6 md:py-2 rounded-md font-semibold flex"
+                href="#"
+              >
+                <span class="hidden md:block">Войти</span>
+                <img
+                  class="h-5 w-5 relative md:left-2 sm:ml-0 top-1"
+                  src="/public/icons/login.png"
+                  alt="login"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- main container -->
+    <section class="container">
+      <div class="flex mt-14">
+        <aside
+          class="bg-white inline-block px-3 max-w-[278px] rounded-lg max-h-[900px] pt-5"
+        >
+          <h2 class="font-semibold text-xl">Фильтр</h2>
+          <p class="text-sm font-medium text-[#63676C] mt-4">Регион</p>
+          <div class="border rounded-md p-1 flex mb-4">
+            <p class="text-sm font-normal">Самаркандская область</p>
+            <img
+              class="w-6 h-6 ml-auto"
+              src="/public/icons/chevron-right.svg"
+              alt="right"
+            />
+          </div>
+          <p class="text-sm font-medium text-[#63676C] mt-4">Район/город</p>
+          <div class="border rounded-md p-1 flex mb-4">
+            <p class="text-sm font-normal">Все</p>
+            <img
+              class="w-6 h-6 ml-auto"
+              src="/public/icons/chevron-right.svg"
+              alt="right"
+            />
+          </div>
+          <p class="font-medium text-sm text-[#63676C]">Сортировать</p>
+          <form class="text-center mb-5">
+            <div border-b class="flex py-2">
+              <input type="radio" />
+              <p class="ml-2 text-sm font-medium">Дешёвые сперва</p>
+            </div>
+            <div border-b class="flex py-2">
+              <input type="radio" />
+              <p class="ml-2 text-sm font-medium">Дорогие сперва</p>
+            </div>
+            <div border-b class="flex py-2">
+              <input type="radio" />
+              <p class="ml-2 text-sm font-medium">Новые сперва</p>
+            </div>
+          </form>
+          <p class="text-sm font-medium text-[#63676C]">Подкатегории</p>
+          <form class="mb-8">
+            <div class="flex py-3 border-b">
+              <input type="checkbox" />
+              <p class="font-medium text-sm ml-2">Все разделы</p>
+            </div>
+            <div class="flex py-3 border-b">
+              <input type="checkbox" />
+              <p class="font-medium text-sm ml-2">Парфюмерия</p>
+              <img
+                src="/public/icons/chevron-right.svg"
+                class="chevroncha w-6 h-6 ml-auto"
+                alt=""
+              />
+            </div>
+            <div class="flex py-3 border-b">
+              <input type="checkbox" />
+              <p class="font-medium text-sm ml-2">Ноутбуки и планшеты</p>
+            </div>
+            <div class="flex py-3 border-b">
+              <input type="checkbox" />
+              <p class="font-medium text-sm ml-2">Лицо</p>
+            </div>
+            <div class="flex py-3 border-b">
+              <input type="checkbox" />
+              <p class="font-medium text-sm ml-2">Тело и ванна</p>
+              <img
+                src="/public/icons/chevron-right.svg"
+                class="chevroncha w-6 h-6 ml-auto"
+                alt=""
+              />
+            </div>
+            <div class="flex py-3 border-b">
+              <input type="checkbox" />
+              <p class="font-medium text-sm ml-2">Макияж</p>
+              <img
+                src="/public/icons/chevron-right.svg"
+                class="chevroncha w-6 h-6 ml-auto"
+                alt=""
+              />
+            </div>
+            <div class="flex py-3 border-b">
+              <input type="checkbox" />
+              <p class="font-medium text-sm ml-2">Мужчинам</p>
+              <img
+                src="/public/icons/chevron-right.svg"
+                class="chevroncha w-6 h-6 ml-auto"
+                alt=""
+              />
+            </div>
+            <div class="flex py-3 border-b">
+              <input type="checkbox" />
+              <p class="font-medium text-sm ml-2">Женщинам</p>
+            </div>
+            <div class="flex py-3 border-b">
+              <input type="checkbox" />
+              <p class="font-medium text-sm ml-2">Премиум</p>
+            </div>
+          </form>
+          <button
+            class="mb-4 text-sm font-semibold border px-6 py-1.5 bg-mainBlue text-white rounded-md"
+          >
+            Применить фильтр
+          </button>
+        </aside>
+
+        <main class="flex ml-4">
+          <div class="flex flex-col">
+            <div>
+              <div>
+                <h2 class="headText">Ноутбуки и планшеты</h2>
+              </div>
+
+              <div class="flex justify-between mt-10 align-bottom pb-0">
+                <p class="font-normal text-sm text-[#8E9297]">156 объявлений</p>
+                <div>
+                  <img
+                    src="/public/icons/1vektor.svg"
+                    class="h-5 w-5"
+                    alt="vektor"
+                  />
+                  <img
+                    src="/public/icons/2Vector.svg"
+                    class="h-5 w-5"
+                    alt="vektor"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="grid py-10 grid-rows-3 gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3"
+              id="componentData"
+            ></div>
+          </div>
+        </main>
+      </div>
+    </section>
+
+    <footer class="bg-white mt-20">
+      <div class="flex flex-col">
+        <div class="rounded-2xl m-auto">
+          <img
+            class="max-w-[122px] rounded-2xl relative -top-10"
+            src="/public/icons/Logofoot.svg"
+            alt="logo"
+          />
+        </div>
+        <p class="max-w-[670px] m-auto paragraphText text-black">
+          77.uz marketplace - это виртуальная платформа в Узбекистане, которая
+          облегчает покупки и продажи, связывая продавцов с потенциальными
+          клиентами.
+        </p>
+        <div
+          class="flex m-auto pt-4 pb-12 justify-between gap-[100px] flex-wrap"
+        >
+          <div class="flex m-auto">
+            <img
+              class="max-w-[16px] mr-2"
+              src="/public/icons/footerSimbol.svg"
+              alt="simbol"
+            />
+            <h3 class="font-semibold text-xl leading-7 max-w-[236px]">
+              Доска объявлений
+            </h3>
+          </div>
+          <div class="flex m-auto">
+            <img
+              class="max-w-[16px] mr-2"
+              src="/public/icons/footerSimbol.svg"
+              alt="simbol"
+            />
+            <h3 class="font-semibold text-xl leading-7 max-w-[236px]">
+              Условия пользования
+            </h3>
+          </div>
+          <div class="flex m-auto">
+            <img
+              class="max-w-[16px] mr-2"
+              src="/public/icons/footerSimbol.svg"
+              alt="simbol"
+            />
+            <h3 class="font-semibold text-xl leading-7 max-w-[236px]">
+              +998 88 500 50 00
+            </h3>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script type="module" src="../js/main.js"></script>
+  </body>
+</html>
